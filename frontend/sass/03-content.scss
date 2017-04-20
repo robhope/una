@@ -2,3 +2,72 @@
 // Style all content below
 //-------------------------------------------------------------------------------
 
+// You can delete everything below this line
+
+body {
+	background-color: #F8F8F8;
+}
+.temp {
+	width: 640px;
+	max-width: 80%;
+	margin: 120px auto 40px auto;
+	font-family: "Playfair Display", Georgia, Serif;
+	font-size: 36px;
+	line-height: 42px;
+
+	@media (max-width: 800px) {
+		margin: 40px auto 20px auto;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.intro {
+		display: block;
+		margin-bottom: 40px;
+		color: #666;
+
+		a {	
+			font-weight: 700;
+			font-style: italic;
+			color: #333;
+			text-decoration: none;
+			border-bottom: 1px dotted #333;
+		}
+	}
+
+	.instructions {
+		font-family: "Helvetica Neue", Arial, Sans-Serif;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		color: #999;
+
+		@media (max-width: 800px) {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		ul {
+			margin: 0;
+			padding: 30px 0 0 0;
+			margin: 0 0 20px 5px; 
+			
+			li {
+				list-style-type: none;
+				padding: 0 0 10px 0;
+
+				&:before {
+				content: "→";
+				padding-right: 20px;	
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+}

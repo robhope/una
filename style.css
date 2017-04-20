@@ -1,10 +1,11 @@
+@charset "UTF-8";
 /*
-Theme Name: una
+Theme Name: Una
 Author: One Page Love
 Author URI: https://onepagelove.com
 Theme URI: https://onepagelove.com/una
 Description: One Page WordPress starter theme with no posts, archives, comments or styles.
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: una
@@ -51,3 +52,23 @@ img.alignright { float: right; }
 img.alignleft { float: left; }
 
 img.aligncenter { clear: both; display: block; margin-right: auto; margin-left: auto; }
+
+body { background-color: #F8F8F8; }
+
+.temp { width: 640px; max-width: 80%; margin: 120px auto 40px auto; font-family: "Playfair Display", Georgia, Serif; font-size: 36px; line-height: 42px; }
+
+@media (max-width: 800px) { .temp { margin: 40px auto 20px auto; font-size: 24px; line-height: 28px; } }
+
+.temp .intro { display: block; margin-bottom: 40px; color: #666; }
+
+.temp .intro a { font-weight: 700; font-style: italic; color: #333; text-decoration: none; border-bottom: 1px dotted #333; }
+
+.temp .instructions { font-family: "Helvetica Neue", Arial, Sans-Serif; font-weight: 300; font-size: 24px; line-height: 28px; color: #999; }
+
+@media (max-width: 800px) { .temp .instructions { font-size: 18px; line-height: 22px; } }
+
+.temp .instructions ul { margin: 0; padding: 30px 0 0 0; margin: 0 0 20px 5px; }
+
+.temp .instructions ul li { list-style-type: none; padding: 0 0 10px 0; }
+
+.temp .instructions ul li:before { content: "→"; padding-right: 20px; }
