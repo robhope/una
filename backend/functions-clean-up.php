@@ -28,11 +28,25 @@ function una_head_cleanup(){
     // Remove Smileys embedded in head
     remove_action( 'wp_print_styles', 'print_emoji_styles' );   
 
-    // Remove p tags from category description
-    remove_filter('term_description','wpautop');  
+    // Remove RSS Feed in header
+    remove_action('wp_head', 'feed_links', 2 );
 
-    // There is no Post Thumbnail support, uncomment to enable
-    // add_theme_support( "post-thumbnails" );
+    // Remove REST API
+    remove_action( 'wp_head', 'rest_output_link_wp_head' );
+
+    // Remove Windows Live Writer Manifest Link
+    remove_action( 'wp_head', 'wlwmanifest_link');
+
+    // Remove Weblog Client Link
+    remove_action ('wp_head', 'rsd_link');
+
+    // Remove WordPress Page/Post Shortlinks 
+    remove_action( 'wp_head', 'wp_shortlink_wp_head');
+
+    // Remove DNS Pre-fetch  (uncomment below to remove)
+    // remove_action( 'wp_head', 'wp_resource_hints', 2 );
+
+
 }
 
 add_action( 'after_setup_theme', 'una_head_cleanup' );
