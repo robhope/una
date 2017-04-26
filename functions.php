@@ -2,7 +2,7 @@
 /**
  *
  * @package una
- * @since una 1.0.2
+ * @since una 1.0.3
  * @license GPL 2.0
  * 
  */
@@ -11,7 +11,7 @@
 # Theme definitions
 # ------------------------------------------------------------------------
 
-define( 'una_theme_version' , '1.0.2' );  				# Theme version
+define( 'una_theme_version' , '1.0.3' );  				# Theme version
 if ( ! isset( $content_width ) ) $content_width = 640;  # Content Width
 
 # ------------------------------------------------------------------------

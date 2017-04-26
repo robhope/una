@@ -5,12 +5,13 @@ Author: One Page Love
 Author URI: https://onepagelove.com
 Theme URI: https://onepagelove.com/una
 Description: One Page WordPress starter theme with no posts, archives, comments or styles.
-Version: 1.0.2
+Version: 1.0.3
 License: GPLv2 or later 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: una
 Tags: one-column
 */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700i");
 html { color: #000; }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
