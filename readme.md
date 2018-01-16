@@ -5,7 +5,7 @@ Thank you for downloading the 'Una' WordPress Theme!
 The point of the theme is to create a simple starting point to quickly create a One Page website - using the power of WordPress.
 
 ## Useful links
-- [Una Demo](https://demo.onepagetemplates.com/una)
+- [Una Demo](https://demos.onepagelove.com/una)
 - [Una Theme Page](https://onepagelove.com/una)
 
 ## Features include
